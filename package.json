@@ -1,0 +1,23 @@
+{
+  "name": "cqrs-con-operaciones-crud",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "SantiagoTonarelli",
+  "license": "ISC",
+  "dependencies": {
+    "koa": "^2.13.0",
+    "koa-bodyparser": "^4.3.0",
+    "koa-json": "^2.0.2",
+    "koa-logger": "^3.2.1",
+    "koa-router": "^9.4.0",
+    "mongoose": "^5.10.9",
+    "mongoose-unique-validator": "^2.0.3",
+    "mysql2": "^2.2.5",
+    "sequelize": "^6.3.5"
+  }
+}
